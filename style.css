@@ -52,7 +52,7 @@ a {
 }
 #backg {
     background-image: url('flamesexample.gif');
-    bottom: 0;
+    bottom: 0%;
     background-color: black;
     background-repeat: repeat-x;
     background-position: bottom;
