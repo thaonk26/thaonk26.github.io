@@ -28,7 +28,7 @@ li {
     background-color: yellow;
     font-style: italic;
 }
-.defat:hover {
+.default:hover {
     background-color: white;
     font-style: italic;
 }
@@ -43,7 +43,14 @@ a {
     text-decoration: none;
 }
 .weird {
-        font-style: italic;
+        width: default;
+        margin: default;
+        text-align: default;
+        list-style-type: none;
+        display: block;
+        padding: default;
+        text-decoration: none;
+        float: left;
 }
 
 #body {
@@ -70,7 +77,8 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
-body { background-color:#333; 
+body { 
+    background-color:#333; 
 }
 #snow{
 	background: none;
